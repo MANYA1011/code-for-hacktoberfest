@@ -23,15 +23,15 @@ int n,key;
 cout<<"Enter number of elements in array:\n";
 cin>>n;
 cout<<"Enter elements of the array:\n";
-int arr[n];
+int a[n];
 for(int i=0;i<n;i++){
- cin>>arr[i];
+ cin>>a[i];
 }
 cout<<"Enter the element which you want to search:\n";
 cin>>key;
  
  //calling the function
-int ans=linear_search(arr,n,key,0);
+int ans=linear_search(a,n,key,0);
 cout<<"The index of desired element is: "<<ans<<endl;
  return 0;
 }
